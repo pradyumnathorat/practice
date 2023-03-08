@@ -1,0 +1,39 @@
+.cardImage {
+    width: 600px;
+    height: 500px;
+    border-radius : 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cardContainer {
+    margin : 20px;
+    
+}
+
+.card-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardButton {
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    width : 25%;
+}
+
+.Instructions {
+    height: 45px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.Ingredients {
+    height: 45px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+
