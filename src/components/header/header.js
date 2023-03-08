@@ -24,7 +24,7 @@ const Header = (props) => {
       <div className="logoContainer">
         <div className="logo" >Recipe App</div>
         <div>
-          <div className="Logout" onClick={handleLogoutClick}>Logout</div>
+          <div className="Logout" onClick={handleLogoutClick}>LogOut</div>
         </div>
       </div>
       <div className="searchContainer" >
