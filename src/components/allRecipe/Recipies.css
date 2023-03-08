@@ -1,9 +1,9 @@
 .allCards {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin: 20px;
-    gap: 10px;
+    
 }
 
 .allRecipies {
