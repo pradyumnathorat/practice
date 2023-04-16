@@ -1,14 +1,14 @@
 .cardImage {
     width: 600px;
-    height: 500px;
+    height: 450px;
     border-radius : 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.cardContainer {
+/* .cardContainer {
     margin : 20px;
     
-}
+} */
 
 .card-main {
     display: flex;

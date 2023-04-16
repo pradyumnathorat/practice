@@ -2,7 +2,7 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    margin: 70px;
+    margin: 30px;
 
 }
 
@@ -32,9 +32,18 @@
     cursor: pointer;
 }
 
-.Logout {
-    color: gray;
-    font-weight: bold;
-    font-size: 30px;
+.Logout img {
+    height:3rem;
     cursor: pointer;
+}
+
+.logo-1 {
+    height:2.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 50%;
+    margin-right: 0.5rem;
 }

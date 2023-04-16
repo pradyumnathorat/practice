@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "./header.css";
 import { Link, Navigate } from 'react-router-dom';
-// import logo from "../../logo/logo.png";
-
+import logout from './logout_icon.jpeg';
+import logo from "./rr.png";
 const Header = (props) => {
 
   const handleChange = (e) => {
@@ -22,9 +22,12 @@ const Header = (props) => {
     <>
 
       <div className="logoContainer">
-        <div className="logo" >Recipe App</div>
+        <div className="logo-1">
+          <img src={logo} alt="gfg" />
+          <div className="logo" >Recipe App</div>
+        </div>
         <div>
-          <div className="Logout" onClick={handleLogoutClick}>LogOut</div>
+          <div className="Logout" onClick={handleLogoutClick}><img src={logout} alt="" /></div>
         </div>
       </div>
       <div className="searchContainer" >

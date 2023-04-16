@@ -85,26 +85,26 @@ const SignUp = () => {
             {performRedirect()}
             <div className="login-container">
                 <div className="signIn">
-                    <div>
-                        <h1>SignUp</h1>
-                    </div>
-                    <div>
-                        <input className="login-input" type="text" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} value={email} />
-                    </div>
-                    <div>
-                        <input className="login-input" type="text" placeholder='Password' onChange={(e) => { setPassword(e.target.value) }} value={password} />
-                    </div>
-                    <div>
-                        <input className="login-input" type="text" placeholder='Repeat Password' onChange={(e) => { setCPassword(e.target.value) }} value={Cpassword} />
-                    </div>
+
+                    <h1>SignUp</h1>
+
+
+                    <input className="login-input" type="text" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} value={email} />
+
+
+                    <input className="login-input" type="text" placeholder='Password' onChange={(e) => { setPassword(e.target.value) }} value={password} />
+
+
+                    <input className="login-input" type="text" placeholder='Repeat Password' onChange={(e) => { setCPassword(e.target.value) }} value={Cpassword} />
+
 
                     <div className="checkbox">
                         <input type="checkbox" checked={isCheck} onChange={handleCheckboxChange} />
                         <p className="terms">I agree with Terms and Conditions</p>
                     </div>
-                    <div>
-                        <button className="login-b" onClick={register}>SignUp</button>
-                    </div>
+
+                    <button className="login-b" onClick={register}>SignUp</button>
+
                 </div>
             </div>
         </>

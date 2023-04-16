@@ -43,21 +43,21 @@ const Login = () => {
             {performRedirect()}
             <div className="login-container">
                 <div className="login">
-                    <div>
-                        <h1>Login</h1>
-                    </div>
-                    <div>
-                        <input className="login-input" type="text" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} value={email} />
-                    </div>
-                    <div>
-                        <input className="login-input" type="text" placeholder='Password' onChange={(e) => { setPassword(e.target.value) }} value={password} />
-                    </div>
-                    <div>
-                        <button className="login-b" onClick={HandleLogin}>Login</button>
-                    </div>
-                    <div>
-                        <Link to="/register" ><p className="signup" >Sign Up</p></Link>
-                    </div>
+
+                    <h1>Login</h1>
+
+
+                    <input className="login-input" type="text" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} value={email} />
+
+
+                    <input className="login-input" type="text" placeholder='Password' onChange={(e) => { setPassword(e.target.value) }} value={password} />
+
+
+                    <button className="login-b" onClick={HandleLogin}>Login</button>
+
+
+                    <Link to="/register" ><p className="signup" >Sign Up</p></Link>
+
                 </div>
             </div>
         </>
