@@ -103,7 +103,7 @@ const SignUp = () => {
                         <p className="terms">I agree with Terms and Conditions</p>
                     </div>
 
-                    <button className="login-b" onClick={register}>SignUp</button>
+                    <button className="sign-b" onClick={register}>SignUp</button>
 
                 </div>
             </div>
