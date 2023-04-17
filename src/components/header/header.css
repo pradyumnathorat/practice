@@ -47,3 +47,9 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem;
 }
+
+@media screen and (max-width:767px){
+    img {
+        border-radius: 50%;
+    }
+}
