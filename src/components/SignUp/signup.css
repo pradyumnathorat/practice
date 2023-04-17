@@ -46,3 +46,19 @@
 .terms {
     margin-left: 10px;
 }
+
+@media screen and (max-width:767px){
+    .signIn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:1.5rem;
+        height: 100%;
+        border: 1px solid black;
+        width: 100%;
+        background-color: white;
+        border-radius:0px;
+        border: none;
+    }
+}

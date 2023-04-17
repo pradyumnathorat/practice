@@ -36,4 +36,32 @@
 
 }
 
+@media screen and (max-width:767px){
+    .card-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardImage {
+        width: 350px;
+        height: 400px;
+        border-radius : 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .cardButton {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+    .cardButton {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        margin: 1rem;
+    }
+}
+
 

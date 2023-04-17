@@ -40,3 +40,19 @@
 .login-b:hover {
     background-color: rgb(41, 41, 216);
 }
+
+@media screen and (max-width:767px){
+    .login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        height: 100%;
+        border: 1px solid black;
+        width: 100%;
+        background-color: white;
+        border-radius:0px;
+        border: none;
+    }
+}
